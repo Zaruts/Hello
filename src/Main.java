@@ -6,8 +6,9 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Comment vous appelez-vous ? ");
 		String name = sc.nextLine();
-		System.out.println("Bonjour " +name +" ! ");
-		
+		System.out.println("Bonjour " +name +" ! Quel age avez-vous ? ");
+		String age = sc.nextLine();
+		System.out.println("Bravo " +name+ " vous avez " +age+ "ans, c'est merveilleux !!");
 	}
 
 }
